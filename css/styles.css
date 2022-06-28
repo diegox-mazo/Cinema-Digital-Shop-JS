@@ -1,0 +1,98 @@
+main{
+	background-image: url(../img/cinema-shop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 99vh;
+	width: 100%;
+	
+}
+h1{
+	color: white;
+	text-align: center;
+    font-size:300%;
+	background-color: black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+h2{
+	color:white;
+	text-align: center;
+	margin-bottom: 3%;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
+h3{
+	color:white;
+	margin-top: 10px;
+	text-align: center;
+}
+h4{
+	text-align: center;
+	margin-bottom: 5%;
+}
+#menu{
+	margin-top: 5%;
+	height: 50vh;
+}
+button{
+	margin-top: 1%;
+}
+img{
+	width: 50%;
+	border-radius: 5%;
+}
+.miSection{
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5%;
+}
+#contenido button{
+	width: 30%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+
+#shopping{
+	height: 70vh;
+	width: 80vw;
+	background-color: rgb(35, 31, 31);
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	overflow: auto; 
+}
+
+#shopping .shop{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.card{
+	max-width: 30%;
+	margin: 1%;
+}
+.card img{
+	width: 100%;
+}
+.card img:hover{
+	cursor: pointer;
+}
+.card:hover{
+	border-color: brown;
+	border-width: 3px;
+}
+.item{
+	width: 10%;
+}
+.mensaje{
+	background-color: black;
+	width: 30vw;
+}
+.swal2-title{
+	color:rgb(52, 5, 243) !important;
+	background-color: white !important;
+}

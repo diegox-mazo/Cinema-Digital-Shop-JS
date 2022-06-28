@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Digital Shop</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+</head>
+
+<body>
+    <main class="container-fluid position-relative" id="main">
+        <h1 id="titulo">Bienvenido a Cinema Digital Shop</h1>
+        <div class="d-grid col-3 mx-auto mt-5">
+            <button type="button" class="btn btn-dark btn-lg btn-outline-light visible" id="ingresar-btn">Ingresar</button>
+        </div>
+
+        <div class="row justify-content-center mx-2 invisible" id="menu">
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center border miSection"
+                id="pelliculas">
+                <img src="./img/movie-logo.webp" alt="logo pelicula">
+                <button type="button" class="btn btn-dark btn-outline-light" id="peliculas-btn">Peliculas</button>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center" id="contenido">
+                <button type="button" class="btn btn-dark btn-outline-light" id="carrito-btn">Ver Carrito</button>
+                <!-- <button type="button" class="btn btn-dark btn-outline-light" id="finalizar-btn">Finalizar Compra</button> -->
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center border miSection"
+                id="alimentos">
+                <img src="./img/pop-corn.jpg" alt="pop corn">
+                <button type="button" class="btn btn-dark btn-outline-light" id="alimentos-btn">Alimentos</button>
+            </div>
+        </div>
+
+        <div class="d-grid col-3 mx-auto mt-5">
+            <button type="button" class="btn btn-dark btn-outline-light invisible" id="atras-btn">Atras</button>
+        </div>
+
+    </main>
+</body>
+
+<script src="./js/framework/bootstrap.min.css"></script>
+<script src="./js/clases.js"></script>
+<script src="./js/simulador.js"></script>
+<script src="./js/eventos.js"></script>
+<script src="./js/framework/sweetalert2.all.min.js"></script>
+
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Popcorn Grande",
+        "precio" : 9.50,
+        "imagen" : "./img/popcorn-big.webp"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Popcorn Pequeño",
+        "precio" : 6.00,
+        "imagen" : "./img/popcorn-small.webp"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Refresco",
+        "precio" : 8.50,
+        "imagen" : "./img/refresco.webp"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Papas",
+        "precio" : 4.00,
+        "imagen" : "./img/papas.webp"
+    },
+    {
+        "id" : 5,
+        "nombre" : "Perro",
+        "precio" : 9.00,
+        "imagen" : "./img/perro.webp"
+    },
+    {
+        "id" : 6,
+        "nombre" : "Hamburguesa",
+        "precio" : 10.50,
+        "imagen" : "./img/hamburguesa.webp"
+    }
+]
